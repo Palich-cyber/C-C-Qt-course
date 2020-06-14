@@ -13,7 +13,7 @@ int mainDialog();
 
 int main (){
 
-    printf("The program displays a thousand random character values ​​to the console.\n");
+    printf("The program displays a thousand random character values to the console.\n");
 
     while(mainDialog() == 1);
 
