@@ -104,6 +104,9 @@ int mainDialog(){
     // Do you want to repeat?
     printf ("Do you want to repeat?\n"
             "Press Y or N.\n");
+    repeatCorrect = 0;
+    repeat = ' ';
+   
     while(repeatCorrect == 0){
         if (repeat == 'Y'){
             repeatCorrect = 1;
