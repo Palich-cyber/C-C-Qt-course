@@ -27,8 +27,8 @@ int isCorrectInputString(char *inputString){
 */
 int dialogEnterCycleCount(char *dialogString){
 
-    char *inputString[7];
-    int   cycleCount;
+    char inputString[7];
+    int  cycleCount;
 
     printf(dialogString);
 
