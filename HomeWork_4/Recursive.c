@@ -7,7 +7,7 @@
    1 - if value is a valid;
    0 - if value is an invalid
 */
-int isCorrectInputString(char *inputString){
+int isCorrectInputString(const char *inputString){
 
     int correct = 1,
         i       = 0;
@@ -25,7 +25,7 @@ int isCorrectInputString(char *inputString){
    -1    - if the value of birthday is an invalid;
    >= 0  - the value of birthday
 */
-int dialogEnterBirthday(char *dialogString){
+int dialogEnterBirthday(const char *dialogString){
 
     char  inputString[4];
     int   birthdayValue;
