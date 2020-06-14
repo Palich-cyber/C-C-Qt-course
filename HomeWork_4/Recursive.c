@@ -10,7 +10,7 @@
 int isCorrectInputString(char *inputString){
 
     int correct = 1,
-        i = 0;
+        i       = 0;
 
     while (inputString[i] != '\0'){
         if (!isdigit(inputString[i])) correct = 0;
