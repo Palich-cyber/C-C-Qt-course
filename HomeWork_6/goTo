@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+#define MIN_VALUE 1
+#define MAX_VALUE 100
+
+int main(){
+
+    int i = MIN_VALUE;
+
+    next:
+        if (i < MAX_VALUE+1) {
+            printf ("%d\t", i);
+            i++;
+            goto next;
+        }
+
+    return 0;
+}
